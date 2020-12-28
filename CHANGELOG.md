@@ -40,6 +40,9 @@ Released on 2021-XX
 #### Updated
 - Pageboy now requires iOS 11 or above.
 
+#### Fixed
+- Issue where `currentPosition` would not correctly reflect all updates in `PageboyViewController`.
+
 ---
 ## [3.6.2](https://github.com/uias/Pageboy/releases/tag/3.6.2)
 Released on 2020-10-11
