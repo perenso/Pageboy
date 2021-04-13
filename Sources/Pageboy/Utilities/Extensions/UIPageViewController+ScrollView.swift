@@ -8,7 +8,7 @@
 
 import UIKit
 
-internal extension UIPageViewController {
+public extension UIPageViewController {
     
     var scrollView: UIScrollView? {
         for subview in view.subviews {
