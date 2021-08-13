@@ -166,7 +166,7 @@ extension PageboyViewController: UIScrollViewDelegate {
         guard scrollViewIsActual(scrollView) else {
             return
         }
-
+        expectedTransitionIndex = nil
         if autoScroller.restartsOnScrollEnd {
             autoScroller.restart()
         }
